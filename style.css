@@ -12,6 +12,8 @@ main{
     background-color: #FFFFFF;
     width:870px;
     padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 8px;
 }
 hr{
     border:1px solid #D1D1D1;
@@ -92,4 +94,14 @@ hr{
 }
 .course-info{
     display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.course-author{
+    color:#ED6B4F;
+}
+.course-duration{
+    color:#ED6B4F;
+    background:#af796c4f;
+    border-radius: 10px;
 }
