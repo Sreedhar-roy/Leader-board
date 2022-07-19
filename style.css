@@ -72,3 +72,24 @@ hr{
     font-size: 16px;
     color:#562EFF;
 }
+/* course secrion sytle */
+.main-courses{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.courses .course img{
+    width:224px;
+    height: 104px;
+}
+.fa-star{
+    font-size: 12px;
+}
+.filled{
+    color:#FFC014;
+}
+.empty{
+    color:#AEAEAE;
+}
+.course-info{
+    display:flex;
+}
